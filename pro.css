@@ -1,0 +1,38 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: aliceblue;
+}
+.h{margin-top: 40px;
+    background-color: antiquewhite;
+    text-align: center;
+    height: 600px;
+    
+}
+.information ls{
+    display: block;
+    padding-top: 20px;
+    font-family:fantasy;
+}
+.pic{
+   
+    margin-left: 25%;
+    background-image: url(preview.jpg);
+    width: 50%;
+    height: 170px;
+    background-position: center;
+    background-size: cover;
+}
+.text{
+    margin-top: 40px;
+}
+.col{
+    margin-top: 100px;
+    padding-left: 10%;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.name{ color: blue;
+    letter-spacing: 10px;
+    border-bottom: 2px solid black;
+}

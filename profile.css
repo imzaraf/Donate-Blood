@@ -1,0 +1,43 @@
+.main{
+
+    color: white;
+    width: 20%;
+
+    border-radius: 10px 0px 10px 0px;
+   background-color: red;
+    
+}
+#w{
+    margin-left: 5%;
+}
+.main input{
+    display: block;
+ margin-left: 5%;
+    box-sizing:border-box;
+}
+#a{
+    display: inline;
+    margin: 0px;
+    margin-left: 5%;
+}
+#ax{
+    margin-left: 5%;
+}
+#button{
+    margin-left: 35%;
+    color: red;
+    background-color: blue;
+}
+.pic{
+    background-image: url(b2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    border-radius: 0px 10px 0px 10px;
+}
+#er{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}

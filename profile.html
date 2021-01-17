@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>  
+    
+    </title>
+        
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="profile.css">
+    </head>
+<body>
+    <script>
+    
+    function check(){
+        var name=document.getElementById('sub');
+        if(name==null){
+            window.alert("empty form");
+        }
+    }
+    </script>
+    <div class="container">
+       <div id="er"> first singup here </div>
+        <div class="row">
+    <div class="col-sm-5 main" >
+        
+        <form method="POST" action="w23.php" class="mm" >
+            
+      <label id="w"> first_name:</label> <input type="text" name="first_name" required>
+         <label id="w">   last_name :</label><input type="text" name="last_name" required>
+         <label id="w">   password :</label><input type="password" name="password">
+         <label id="w">   confirm_password :</label><input type="password" name="confirm_password" required>
+        <label id="w">    email :</label><input type="email"   name="email" required>
+        
+         <label id="w">   date_of_birth :</label><input type="date" name="date_of_birth" required>
+        <label id="w">    address :</label><input type="text" name="address">
+                <label id="w">  blood group :</label><input type="text" name="blood_group" required><br>
+            
+            <input id="submite" type="submit" name="submite" onclick="chech" value="submit" id="sub">
+           
+        </form>
+            </div>
+            <div class="col-sm-7 pic">
+            
+            </div> 
+            </div>
+        </div>
+    
+   
+    
+    </body>
+</html>

@@ -1,0 +1,113 @@
+body {
+  padding: 0;
+  margin: 0px;
+  background-color: rgba(0.8, 0, 0, 0.1);
+}
+li a {
+  color: blue;
+  font-family: fantasy;
+}
+.all {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 100px;
+}
+.mainu li {
+  display: inline;
+  margin-right: 40px;
+  border-left: 2px solid green;
+  border-right: 2px solid green;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.mainu li:hover {
+  background-color: white;
+}
+.mainu ul {
+  margin-top: 40px;
+}
+.logo {
+  color: green;
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: fantasy;
+}
+.login li {
+  display: inline;
+  margin-right: 10px;
+  border-left: 2px solid green;
+  border-right: 2px solid green;
+  padding: 5px;
+  border-radius: 10px 10px 10px 10px;
+}
+.login li:hover {
+  background-color: white;
+}
+.login ul {
+  margin-top: 40px;
+}
+.image1 {
+  background-image: url(b4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+}
+.text {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: firebrick;
+  letter-spacing: 10px;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
+  font-family: fantasy;
+  margin-top: 20px;
+}
+.t {
+  text-align: center;
+  padding-top: 0px;
+  letter-spacing: 5px;
+  color: black;
+  font-size: 20px;
+}
+.reg {
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  color: green;
+}
+
+#button {
+  width: 20%;
+  height: 40px;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+}
+.text1 {
+  color: green;
+  font-size: 25px;
+}
+
+.image2 {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+  height: 400px;
+  width: 100%;
+}
+.ndm li {
+  display: inline;
+  margin-right: 30px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+.more {
+  font-size: 60px;
+  color: white;
+}
+.more2 {
+  font-size: 100px;
+  color: blue;
+}
